@@ -1,0 +1,30 @@
+Git Commands---
+
+mkdir - Make directory
+cd - 	Change directory
+
+git init - 		start a local repository
+git status - 		checking what's changed since last commit
+git add - 		to put on stage
+git branch -d "" - 	Delete branch
+git commit -m "insert" - takes snapshot of stage and added to timeline 
+git rebase origin/master - Takes update from master branch to current branch
+git pull --rebase origin ((from)BranchName)
+git reset --hard -	gets you to previous stage in branch
+git push -f - 		forces and push (even if ur tip is behind remote branch)
+git stash lis - 	Gives a list of stashes
+git stash apply - 	gives u back from stash
+
+git --all - adds all new or modified files to stage
+git log - timeline history
+
+rm -rf [File name] - 	Deletes the file
+
+DIFFERENT WAYS TO ADD-----
+
+git add <list of files> 	- Add the list of files
+git add --all 			- Add all files
+git add *.txt 			- Add all txt files in current directory
+git add docs/*.txt 		- Add all txt files in docs/ directory
+git add docs/ 			- Add all files in docs directory
+git add "*.txt" 		- Adds all txt files on the whle project
