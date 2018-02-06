@@ -28,3 +28,14 @@ git add *.txt 			- Add all txt files in current directory
 git add docs/*.txt 		- Add all txt files in docs/ directory
 git add docs/ 			- Add all files in docs directory
 git add "*.txt" 		- Adds all txt files on the whle project
+
+-- Flytta grejer från en repository till en annan
+cd repo2
+git checkout master
+git remote add r1remote **url-of-repo1**
+git fetch r1remote
+git merge r1remote/master --allow-unrelated-histories
+git remote rm r1remote
+
+-- Guide till kopiering av repositories
+https://help.github.com/articles/duplicating-a-repository/
