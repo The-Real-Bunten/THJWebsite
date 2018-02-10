@@ -18,3 +18,10 @@ p {
 footer {
     background-color: yellow;
 }
+
+#img {
+    background-image: url('./THJWebsite/poster.jpg');
+    width: 400px;
+    height: 300px;
+  
+  }

@@ -8320,3 +8320,46 @@ a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+
+/* MY CODE */
+.poster {
+  position: relative;
+  max-width: 100%;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(198, 209, 100);
+}
+
+.overlay h2 {
+  color: rgb(59, 59, 59);
+  font-size: 7em;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.poster:hover .overlay {
+  opacity: 0.2;
+}
+
+
+
+
