@@ -8322,6 +8322,7 @@ a.text-dark:hover {
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 /* MY CODE */
+
 .poster {
   position: relative;
   max-width: 100%;
@@ -8334,6 +8335,7 @@ img {
 }
 
 .overlay {
+  display: flex;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -8347,7 +8349,8 @@ img {
 }
 
 .overlay h2 {
-  color: rgb(59, 59, 59);
+  color: rgb(0, 0, 0);
+  display: flex;
   font-size: 7em;
   position: absolute;
   top: 20%;
@@ -8360,6 +8363,19 @@ img {
   opacity: 0.2;
 }
 
+.date {
+  font-size: 1.2em;
+  position: absolute;
+  top: 4px;
+  right: 14px;
+  
+}
 
+.time {
+  font-size: 1.2em;
+  position: absolute;
+  top: 22px;
+  right: 14px;
+}
 
 
