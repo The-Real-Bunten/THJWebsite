@@ -8378,4 +8378,14 @@ img {
   right: 14px;
 }
 
+footer {
+  height: 5vh; 
+  background-color: #343a40;
+  text-align: center;
+  color: white;
+}
 
+footer h4 {
+  margin: 0;
+  padding-top: 6px;
+}
