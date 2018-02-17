@@ -8345,7 +8345,7 @@ img {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgb(198, 209, 100);
+  background-color: rgb(255, 255, 255);
 }
 
 .overlay h2 {
